@@ -51,7 +51,6 @@ npm install
 cd Wine_test/Frontend
 npm run dev
 ```
-- The React app will start on http://localhost:3000/
 
 ## Features
 - User-friendly form to enter wine properties
