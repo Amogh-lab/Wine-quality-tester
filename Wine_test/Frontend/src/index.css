@@ -1,0 +1,15 @@
+body{
+  background-color: antiquewhite;
+  font-family: 'Mulish', sans-serif;
+  background-image: url('/javier-balseiro-1TC_Mxh7NXo-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #3e2723;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

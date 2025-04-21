@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: #ebddd291;
+    color: #3e2723;
+  }
+  
+  .Screen {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(253, 247, 242, 0.377);
+  }
+  
+  .info-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 40px;
+    background-color: #fff3e6;
+    color: #5d4037;
+    z-index: 1000;
+  }
+  
+  .info-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #6a1b1a;
+  }
+  
+  .info-desc {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 400px;
+  }
+  
+  .app {
+    flex: 0 0 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 1500;
+  }
+  
+  .container {
+    background-color: #fff8f0c4;
+    padding: 30px;
+    border-radius: 2.8px;
+    /* box-shadow: 0 4px 12px rgba(100, 50, 20, 0.1); */
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #531616;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .form-group {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #4e342e;
+  }
+  
+  .input {
+    padding: 8px;
+    border: 1px solid #e2d9d9;
+    border-radius: 3px;
+    color: #3e2723;
+    font-size: 1rem;
+    background-color: #fff;
+  }
+  
+  .btn {
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #531616;
+    color: rgb(223, 206, 206);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #611d1d;
+  }
+  
+  .result {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .result h3,
+  .result h4 {
+    margin: 10px 0;
+    color: #3e2723;
+  }
+  
+  .result span {
+    font-weight: bold;
+  }
+  
+  .range.low {
+    color: #d32f2f;
+  }
+  
+  .range.medium {
+    color: #fbc02d;
+  }
+  
+  .range.high {
+    color: #388e3c;
+  }
+  
